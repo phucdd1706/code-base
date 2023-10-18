@@ -12,6 +12,7 @@ const initialState: InitialLoginContextProps = {
   user: null
 };
 
+// eslint-disable-next-line @typescript-eslint/default-param-last
 const authReducer = (state = initialState, action: AuthReducerActionProps) => {
   switch (action.type) {
     case 'LOGIN': {
